@@ -47,8 +47,7 @@ public class PerroServ {
             {
                 it.remove();
                 System.out.println("La raza fue eliminada");
-            }else {
-                    
+            }else {   
             System.out.println("No se encontró esa raza en la lista");
                     }
         }
