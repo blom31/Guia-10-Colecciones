@@ -68,3 +68,7 @@ public class PerroServ {
 //está en la lista, se eliminará el perro que ingresó el usuario y se mostrará la lista
 //ordenada. Si el perro no se encuentra en la lista, se le informará al usuario y se mostrará
 //la lista ordenada.
+
+
+
+//listasPerros.add(new Perro(razaPerro));
