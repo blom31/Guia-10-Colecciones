@@ -19,7 +19,7 @@ public class PeliServ {
 
     public PeliServ() {
         this.leer = new Scanner(System.in).useDelimiter("\n");
-        this.pelicula = pelicula;
+        //this.pelicula = pelicula;
         this.cine = new ArrayList<>();
     }
 
