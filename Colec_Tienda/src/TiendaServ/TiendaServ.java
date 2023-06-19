@@ -14,7 +14,7 @@ public class TiendaServ {
     public TiendaServ() {
         this.leer = new Scanner(System.in).useDelimiter("\n");
         //this.produc = produc;
-        this.articulo = new HashMap<>();
+        this.articulo = new HashMap()   ;
     }
 
     public void crear() {

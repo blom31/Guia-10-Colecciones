@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Relac_ManosALaObra1">
+  <ClassDiagramComponents>
+    <Class name="Jugador" package="Clase_Jugador" visibility="public" xPosition="86.0" yPosition="30.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="nro" type="Integer" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apellido"/>
+          <Argument type="String" name="posicion"/>
+          <Argument type="Integer" name="nro"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getApellido" returnType="String" visibility="public"/>
+        <Method name="setApellido" returnType="void" visibility="public">
+          <Argument type="String" name="apellido"/>
+        </Method>
+        <Method name="getPosicion" returnType="String" visibility="public"/>
+        <Method name="setPosicion" returnType="void" visibility="public">
+          <Argument type="String" name="posicion"/>
+        </Method>
+        <Method name="getNro" returnType="Integer" visibility="public"/>
+        <Method name="setNro" returnType="void" visibility="public">
+          <Argument type="Integer" name="nro"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Equipo" package="Equipo" visibility="public" xPosition="573.0" yPosition="30.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Relac_ManosALaObra1" package="relac_manosalaobra1" visibility="public" xPosition="846.0" yPosition="30.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
